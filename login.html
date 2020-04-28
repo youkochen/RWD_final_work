@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六角西餐廳 ｜ 會員登入</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="咬一口就無法忘懷的漢堡，享受美食好味道！">
+    <meta name="keywords" content="六角西餐廳,漢堡,台灣本土蔬菜,米其林">
+
+    <meta property="og:title" content="咬一口就無法忘懷的漢堡，享受美食好味道！">
+
+    <link rel="apple-touch-icon" href="favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" href="css/pure-release-1.0.1/forms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/all.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <h1 class="logo"><a href="index.html" title="六角西餐廳">六角西餐廳</a></h1>
+        <a href="#" class="menu_btn"><i class="fas fa-bars"></i></a>
+        <ul class="menu">
+            <li><a href="index.html#feature">特色</a></li>
+            <li><a href="index.html#chef">主廚</a></li>
+            <li><a href="index.html#map">地圖</a></li>
+            <li><a href="cart.html#cart">訂購</a></li>
+            <li><a href="#login">登入</a></li>
+        </ul>
+        </div>        
+    </div>
+
+    <div class="popbn">
+        <div class="slogan">
+            <h2 class="slogan_pc">咬一口就無法忘懷的漢堡</h2>
+            <h2 class="slogan_mb">咬一口</br>就無法忘懷的漢堡</h2>
+            <p>七夕絕對無法錯過的好滋味</br>
+                <i class="fas fa-utensils"></i> 六角大漢堡 <i class="fas fa-utensils"></i> </p>
+        </div>
+    </div>
+
+
+
+    <div class="main">
+        <div  id="login"></div>
+        <!-- login -->
+        <div class="login_page wrap show_smooth">
+            <div class="title">
+                <h3 class="noto_b">六角西餐廳</h3>
+                <h4 class="noto_m">享受美食好味道</h4>
+            </div>
+
+            <div class="welcome_box">
+                <h4 class="noto_b sub_title">WELCOME !</h4>
+                <i>123</i> 接下來想看什麼？
+                <ul class="noto_m">
+                    <li class="go_cart"><a href="cart.html#cart">訂購餐點</a></li>
+                    <li class="go_booking"><a href="index.html#map">線上訂位</a></li>
+                    <li class="go_chef"><a href="index.html#chef">今日主廚</a></li>
+                    <li class="go_index"><a href="index.html">關於我們</a></li>
+                </ul>
+            </div>
+
+            <div class="login_box">
+                    <h4 class="noto_b sub_title">LOGIN</h4>
+                    <form action="" name="form_login" id="form_login" class="form_login pure-form pure-form-stacked" onsubmit="return false">
+                        <label>Email Address*</label>
+                        <div class="input_icon">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <label>Password*</label>
+                        <div class="input_icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="passw" id="passw">
+                        </div>
+                        <a class="font_orange">忘記密碼？</a>
+                        <div class="btn_container">
+                            <button class="btn_go_register btn_gray pure-button pure-button-primary">註冊</button>
+                            <button class="btn_sent_login pure-button pure-button-primary">送出</button>
+                        </div>
+                    </form>
+            </div>
+
+            <div class="register_box">
+                <h4 class="noto_b sub_title">REGISTER</h4>
+                <div class="register_container">
+                    <div class="info">
+                        <h4>就是這樣條款：</h4>
+                        <p>Mauris non tempor quam, et lacinia sapien. 
+                            Mauris accumsan eros eget libero posuere 
+                            vulputate. Etiam elit elit, elementum sed 
+                            varius at, adipiscing vitae est. Sed nec 
+                            felis pellentesque, lacinia dui sed, ultricies 
+                            sapien...</p>
+                    </div>
+                    <form action="login.html" name="form_register" id="form_register" class="form_register pure-form pure-form-stacked" onsubmit="return false">
+                        <label>Email Address*</label>
+                        <div class="input_icon">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" name="email" id="email" placeholder="電子信箱">
+                        </div>
+                        <label>Password*</label>
+                        <div class="input_icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="passw" id="passw" placeholder="設定密碼">
+                        </div>
+                        <div class="input_icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="passw_re" id="passw_re" placeholder="再次輸入密碼">
+                        </div>
+                        <a href="#" class="btn_go_login font_orange">已經有帳號了？</a>
+                    </form>
+                </div>  
+                <div class="btn_container">
+                    <button class="btn_sent_register pure-button pure-button-primary">註冊</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- 5hr -->
+
+
+
+
+    <div class="wrap footer">
+        <div class="info">
+            <div>
+                <h3>關於 六角西餐廳</h3>
+                <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
+            </div>
+            <div>
+                <h3>聯絡方式</h3>
+                <ul>
+                    <li>高雄市中正五路到底</li>
+                    <li>+886 886 886</li>
+                    <li>service@hexschool.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social">
+            <img src="img/logo_footer.svg">
+            <ul class="social_icon">
+                <li><a href="" target="_blank" class="link_google fab fa-google-plus-square"></a></li>
+                <li><a href="" target="_blank" class="link_twitter fab fa-twitter-square"></a></li>
+                <li><a href="" target="_blank" class="link_fb fab fa-facebook-square"></a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
